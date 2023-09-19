@@ -41,13 +41,14 @@ body {
     background-color:rgb(85, 131, 247);
     line-height: 2em;
     font-size: 1.2em;
-    display: flex;
+    padding: 1em;
   }
   nav a {
     padding:1em;
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
+    text-align: center;
   
   }
   nav a:link, nav a:visited {
