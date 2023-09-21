@@ -65,6 +65,7 @@ body {
     text-align: center;
     color: rgb(7, 55, 8);
     background-color:rgb(168, 208, 241);
+    flex: auto;
   }
 
   .card {
