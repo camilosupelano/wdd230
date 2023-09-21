@@ -19,6 +19,7 @@ body {
 
   a{
     text-decoration: none;
+    color: black;
   }
   a:hover {
     color: black;
@@ -29,6 +30,7 @@ body {
     text-align: center;
   }
 
+
   header {
     padding: 1em;
     text-align: center;
@@ -38,7 +40,7 @@ body {
 
   
   nav {
-    background-color:rgb(85, 131, 247);
+    background-color:#86a8fd;
     line-height: 2em;
     font-size: 1.2em;
     padding: 1em;
@@ -49,6 +51,7 @@ body {
     text-decoration: none;
     padding: 10px;
     text-align: center;
+    color: black;
   
   }
   nav a:link, nav a:visited {
