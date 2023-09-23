@@ -21,3 +21,21 @@ section {
     padding: 1rem;
     background-color: #fff;
 }
+
+@media all and (min-width: 500px){
+    main>section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+  }
+  
+  @media all and (min-width: 1024px){
+    main section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+  }

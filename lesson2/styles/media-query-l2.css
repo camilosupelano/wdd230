@@ -1,0 +1,17 @@
+@media all and (min-width: 500px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+  }
+  
+  @media all and (min-width: 1024px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    
+  }

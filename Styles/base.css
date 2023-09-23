@@ -3,13 +3,18 @@ body {
     font-size: 18px;
     text-align: center;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
   }
+  
   img {
     display: block;
     margin: 0 auto;
     place-items: center;
     width: 60%;
     height: auto;
+  }
+  card img{
+    width: 30%;
   }
   ul {
     list-style-type: none;
@@ -36,6 +41,7 @@ body {
     text-align: center;
     color: rgb(13, 80, 14);
     background-color:rgb(183, 231, 183);
+    font-family: 'Croissant One', cursive;
   }
 
   
@@ -65,8 +71,17 @@ body {
     text-align: center;
     color: rgb(7, 55, 8);
     background-color:rgb(168, 208, 241);
-    flex: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
   }
+  main section {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 
   .card {
     font-size: 17px;
@@ -79,8 +94,7 @@ body {
     background-color:rgb(183, 231, 183);
   }
 
-/* Media Queries */
-@media (min-width: 475px) { }
-@media (min-width: 640px) { }
-@media (min-width: 768px) { }
-@media (min-width: 1024px) { }
+
+
+
+
