@@ -1,0 +1,80 @@
+/* p {
+    color: blue;
+} */
+
+
+/*
+***********
+ Descendant combinatora
+ **********
+ */
+
+/* #combinator p {
+    color:red;
+} */
+
+
+
+
+/*
+************
+ child combinator
+************
+ */
+
+ /* #combinator>p {
+    color:red;
+} */
+
+/* #subcontent > p{
+    padding: 50px;
+} */
+
+
+/*
+***********
+Adjacent sibling combinator
+ **********
+ */
+
+ /* h4 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}  */
+
+
+/*
+***********
+General sibling combinator
+ **********
+ */
+
+/* img ~ p {
+    color: red;
+} */
+
+/* h3 ~ p {
+    color: green;
+} */
+
+/* h3 ~ h4 {
+    background-color:aquamarine ;
+} */
+
+#content {
+    margin: 30px;
+}
+
+#subcontent {
+    margin: 30px;
+}
+
+#subsubcontent {
+    margin: 30px;
+}
+
+img {
+    width: 200px;
+}
